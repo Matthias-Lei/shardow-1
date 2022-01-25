@@ -1,0 +1,861 @@
+{
+    "master": 619798700675563530,
+    "authorisedUsers": [
+        619798700675563530,
+        403781691249917952,
+        276976462140014593
+    ],
+    "semiauthorisedUsers": [
+        821525100020367390
+    ],
+    "logFile": "C:\\Users\\MattL\\Documents\\visual studio projects\\test website\\bot\\log.txt",
+    "logChannel": 878847608506953738,
+    "streamingSettings": {
+        "name": "| use \\?",
+        "url": "https://www.twitch.tv/shardowyt_/about"
+    },
+    "shortAutoclearTime": null,
+    "longAutoclearTime": null,
+    "maxDepth": 3,
+    "allDataAttributes": {},
+    "attributeMaxLength": 2048,
+    "deleteMessages": true,
+    "validCommands": {
+        "commands": [
+            "hellp",
+            "easteregg",
+            "hi",
+            "hey",
+            "helo",
+            "hello",
+            "hullo",
+            "ara",
+            "owo",
+            "uwu",
+            "snow",
+            "snowy",
+            "snowflake",
+            "?",
+            "help",
+            "rng",
+            "random",
+            "ut",
+            "uptime",
+            "at",
+            "atd",
+            "atf",
+            "gfl",
+            "autofill",
+            "autofiller",
+            "tl",
+            "timetablelinks",
+            "pp",
+            "prettyprint",
+            "ie",
+            "ifempty",
+            "iz",
+            "ifzero",
+            "in",
+            "iflength",
+            "it",
+            "iftrue",
+            "ig",
+            "ifgreater",
+            "il",
+            "ifless",
+            "igl",
+            "ifgreaterless",
+            "wi",
+            "whileiter",
+            "fi",
+            "foriter",
+            "di",
+            "dictiter",
+            "gh",
+            "gethistory",
+            "pf",
+            "parsefile",
+            "svrinfo",
+            "cl",
+            "clear",
+            "et",
+            "emergencytimetable",
+            "rs",
+            "removeSmirk",
+            "dc",
+            "deletecall",
+            "ws",
+            "writesettings",
+            "la",
+            "listattributes",
+            "ss",
+            "setstatus",
+            "ri",
+            "rebuildindex",
+            "cc",
+            "commander",
+            "co",
+            "operator",
+            "rt",
+            "ping",
+            "?ack",
+            "?acknowledgements",
+            "ls",
+            "cat",
+            "nano",
+            "owoify",
+            "listen",
+            "ignore",
+            "terminate",
+            "say",
+            "rai",
+            "adl",
+            "jv",
+            "joinvoice"
+        ],
+        "replies": {
+            "hellp": "trollHelpEmbed",
+            "egg": "eggEmoji",
+            "easteregg": "eggEmoji",
+            "hi": "handEmoji",
+            "hey": "handEmoji",
+            "helo": "handEmoji",
+            "hello": "handEmoji",
+            "hullo": "handEmoji",
+            "ara": "why",
+            "owo": "why",
+            "uwu": "why",
+            "snow": "snowflakeEmoji",
+            "snowy": "snowflakeEmoji",
+            "snowflake": "snowflakeEmoji",
+            "?": "helpEmbed",
+            "help": "helpEmbed",
+            "rng": "randomNumber",
+            "random": "randomNumber",
+            "ut": "upTime",
+            "uptime": "upTime",
+            "at": "attendanceEmbed",
+            "atd": "attendanceEmbed",
+            "atf": "attendanceEmbed",
+            "gfl": "attendanceEmbed",
+            "autofill": "attendanceEmbed",
+            "autofiller": "attendanceEmbed",
+            "tl": "getTimetables",
+            "timetablelinks": "getTimetables",
+            "pp": "prettyPrint",
+            "prettyprint": "prettyPrint",
+            "ie": "ifEmptyCodeBlock",
+            "ifempty": "ifEmptyCodeBlock",
+            "iz": "ifZeroCodeBlock",
+            "ifzero": "ifZeroCodeBlock",
+            "in": "ifLongCodeBlock",
+            "iflength": "ifLongCodeBlock",
+            "it": "ifTrueCodeBlock",
+            "iftrue": "ifTrueCodeBlock",
+            "ig": "ifGreaterCodeBlock",
+            "ifgreater": "ifGreaterCodeBlock",
+            "il": "ifLessCodeBlock",
+            "ifless": "ifLessCodeBlock",
+            "igl": "ifGreaterLessCodeBlock",
+            "ifgreaterless": "ifGreaterLessCodeBlock",
+            "fi": "forIteratorCodeBlock",
+            "foriter": "forIteratorCodeBlock",
+            "wi": "whileIteratorCodeBlock",
+            "whileiter": "whileIteratorCodeBlock",
+            "di": "dictionaryIteratorCodeBlock",
+            "dictiter": "dictionaryIteratorCodeBlock",
+            "pf": "fileCodeBlock",
+            "parsefile": "fileCodeBlock",
+            "gh": "getHistory",
+            "gethistory": "getHistory",
+            "cl": "autoClear",
+            "clear": "autoClear",
+            "et": "generateTimetable",
+            "emergencytimetable": "generateTimetable",
+            "rs": "removeSmirk",
+            "removeSmirk": "removeSmirk",
+            "dc": "deleteCallingMessage",
+            "deletecall": "deleteCallingMessage",
+            "ws": "writeSettings",
+            "writesettings": "writeSettings",
+            "la": "listAttributes",
+            "listattributes": "listAttributes",
+            "ss": "setStatus",
+            "setstatus": "setStatus",
+            "ri": "rebuildIndex",
+            "rebuildindex": "rebuildIndex",
+            "cc": "checkForCommander",
+            "commander": "checkForCommander",
+            "co": "checkForOperator",
+            "operator": "checkForOperator",
+            "rt": "testPing",
+            "ping": "testPing",
+            "?ack": "acknowledgementsHelpEmbed",
+            "?acknowledgements": "acknowledgementsHelpEmbed",
+            "ls": "ls",
+            "cat": "cat",
+            "nano": "nano",
+            "owoify": "owoify",
+            "listen": "startListening",
+            "ignore": "stopListening",
+            "terminate": "terminate",
+            "say": "copyUserText",
+            "rai": "revokeAllInvites",
+            "adl": "addListeners",
+            "jv": "joinVoice",
+            "joinvoice": "joinVoice"
+        }
+    },
+    "defaultStatus": "streaming",
+    "serverSettings": {
+        "877157413168484432": {
+            "deleteCalls": true
+        },
+        "692688320706379777": {
+            "deleteCalls": false
+        }
+    },
+
+    "typeEmojis": {
+        "string": "883155569869979658",
+        "dictionary": "883155570029387786",
+        "float": "883155569911930960",
+        "boolean": "883155569890971708",
+        "snowflakeid": "883155569958092800",
+        "integer": "883155569710608406"
+    },
+
+
+    "helpEmojis": {
+        "home": "882810562126417930",
+        "restricted": "882810562214518835",
+        "automated": "915861328235757599",
+        "code": "882810561690222613",
+        "symbols": "882810561786699817",
+        "acknowledgements": "882810562055131186"
+    },
+    "reactionsEnabled": true,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    "classOverrides": {
+
+        "Guild": [
+            "afk_channel.id",
+            "afk_timeout",
+            "banner",
+            "banner_url",
+            "bitrate_limit",
+            "default_notifications",
+            "default_role.id",
+            "description",
+            "discovery_splash",
+            "discovery_splash_url",
+            "emoji_limit",
+            "emojis",
+            "explicit_content_filter",
+            "features",
+            "filesize_limit",
+            "icon",
+            "icon_url",
+            "id",
+            "max_members",
+            "max_presences",
+            "max_video_channel_users",
+            "member_count",
+            "members",
+            "mfa_level",
+            "name",
+            "owner_id",
+            "preferred_locale",
+            "premium_subscriber_role",
+            "premium_subscribers",
+            "premium_subscription_count",
+            "public_updates_channel.id",
+            "region",
+            "rules_channel.id",
+            "shard_id",
+            "splash",
+            "splash_url",
+            "system_channel.id",
+            "system_channel_flags",
+            "verification_level"
+        ],
+        "Message": [
+            "id",
+            "author.id",
+            "edited_at",
+            "content",
+            "embeds",
+            "attachments",
+            "reference",
+            "pinned",
+            "stickers",
+            "reactions"
+        ],
+        "CategoryChannel": [
+            "category",
+            "changed_roles",
+            "created_at",
+            "id",
+            "name",
+            "overwrites",
+            "permissions_synced",
+            "position",
+            "stage_channels",
+            "text_channels",
+            "type",
+            "voice_channels"
+        ],
+        "DMChannel": [
+
+            "bitrate",
+            "changed_roles",
+            "created_at",
+            "id",
+            "members",
+            "name",
+            "nsfw",
+            "overwrites",
+            "permissions_synced",
+            "position",
+            "rtc_region",
+            "slowmode_delay",
+            "topic",
+            "type",
+            "user_limit",
+            "voice_states"
+
+        ],
+        "GroupChannel": [
+
+            "bitrate",
+            "changed_roles",
+            "created_at",
+            "id",
+            "members",
+            "name",
+            "nsfw",
+            "overwrites",
+            "permissions_synced",
+            "position",
+            "rtc_region",
+            "slowmode_delay",
+            "topic",
+            "type",
+            "user_limit",
+            "voice_states"
+
+        ],
+        "StageChannel": [
+
+            "bitrate",
+            "changed_roles",
+            "created_at",
+            "id",
+            "members",
+            "name",
+            "nsfw",
+            "overwrites",
+            "permissions_synced",
+            "position",
+            "rtc_region",
+            "slowmode_delay",
+            "topic",
+            "type",
+            "user_limit",
+            "voice_states"
+
+        ],
+        "StoreChannel": [
+
+            "bitrate",
+            "changed_roles",
+            "created_at",
+            "id",
+            "members",
+            "name",
+            "nsfw",
+            "overwrites",
+            "permissions_synced",
+            "position",
+            "rtc_region",
+            "slowmode_delay",
+            "topic",
+            "type",
+            "user_limit",
+            "voice_states"
+
+        ],
+        "TextChannel": [
+
+            "bitrate",
+            "changed_roles",
+            "created_at",
+            "id",
+            "members",
+            "name",
+            "nsfw",
+            "overwrites",
+            "permissions_synced",
+            "position",
+            "rtc_region",
+            "slowmode_delay",
+            "topic",
+            "type",
+            "user_limit",
+            "voice_states"
+
+        ],
+        "VoiceChannel": [
+
+            "bitrate",
+            "changed_roles",
+            "created_at",
+            "id",
+            "members",
+            "name",
+            "nsfw",
+            "overwrites",
+            "permissions_synced",
+            "position",
+            "rtc_region",
+            "slowmode_delay",
+            "topic",
+            "type",
+            "user_limit",
+            "voice_states"
+
+        ],
+        "PartialInviteChannel": [
+
+            "bitrate",
+            "changed_roles",
+            "created_at",
+            "id",
+            "members",
+            "name",
+            "nsfw",
+            "overwrites",
+            "permissions_synced",
+            "position",
+            "rtc_region",
+            "slowmode_delay",
+            "topic",
+            "type",
+            "user_limit",
+            "voice_states"
+
+        ],
+        "Role": [
+            "color",
+            "hoist",
+            "id",
+            "managed",
+            "mentionable",
+            "name",
+            "permissions",
+            "position",
+            "tags"
+        ],
+        "Colour": [
+            "value"
+        ],
+        "ChannelType": [
+            "category",
+            "group",
+            "news",
+            "private",
+            "stage_voice",
+            "store",
+            "text",
+            "voice"
+        ],
+        "PermissionOverwrite": [
+            "PURE_FLAGS",
+            "VALID_NAMES",
+            "add_reactions",
+            "administrator",
+            "attach_files",
+            "ban_members",
+            "change_nickname",
+            "connect",
+            "create_instant_invite",
+            "deafen_members",
+            "embed_links",
+            "external_emojis",
+            "kick_members",
+            "manage_channels",
+            "manage_emojis",
+            "manage_guild",
+            "manage_messages",
+            "manage_nicknames",
+            "manage_permissions",
+            "manage_roles",
+            "manage_webhooks",
+            "mention_everyone",
+            "move_members",
+            "mute_members",
+            "priority_speaker",
+            "read_message_history",
+            "read_messages",
+            "request_to_speak",
+            "send_messages",
+            "send_tts_messages",
+            "speak",
+            "stream",
+            "use_external_emojis",
+            "use_slash_commands",
+            "use_voice_activation",
+            "view_audit_log",
+            "view_channel",
+            "view_guild_insights"
+        ],
+        "Permissions": [
+            "value"
+        ],
+        "Embed": [
+            "author",
+            "colour",
+            "description",
+            "fields",
+            "footer",
+            "image",
+            "provider",
+            "thumbnail",
+            "timestamp",
+            "title",
+            "type",
+            "url",
+            "video",
+            "to_dict()"
+        ],
+        "Attachment": [
+            "filename",
+            "id",
+            "url",
+            "is_spoiler()"
+        ],
+        "MessageReference": [
+            "message_id"
+        ],
+        "Member": [
+            "activities",
+            "avatar_url",
+            "bot",
+            "desktop_status",
+            "discriminator",
+            "display_name",
+            "dm_channel",
+            "guild",
+            "id",
+            "mobile_status",
+            "name",
+            "nick",
+            "pending",
+            "premium_since",
+            "public_flags",
+            "raw_status",
+            "relationship",
+            "roles",
+            "status",
+            "system",
+            "voice",
+            "web_status"
+        ],
+        "Emoji": [
+            "animated",
+            "available",
+            "id",
+            "managed",
+            "name",
+            "require_colons",
+            "roles",
+            "url",
+            "user"
+        ]
+
+
+
+    },
+
+
+
+    "classOverridesOverrides": {
+    
+        "Activity": [],
+        "ActivityType": [],
+        "AllowedMentions": [],
+        "AppInfo": [
+            "id"
+        ],
+        "Asset": [],
+        "AsyncWebhookAdapter": [],
+        "Attachment": [
+            "id"
+        ],
+        "AudioSource": [],
+        "AuditLogAction": [],
+        "AuditLogActionCategory": [],
+        "AuditLogChanges": [],
+        "AuditLogDiff": [],
+        "AuditLogEntry": [],
+        "AutoShardedClient": [],
+        "BaseActivity": [],
+        "CallMessage": [],
+        "CategoryChannel": [
+            "id"
+        ],
+        "ChannelType": [
+            "category",
+            "group",
+            "news",
+            "private",
+            "stage_voice",
+            "store",
+            "text",
+            "voice"
+        ],
+        "Client": [],
+        "ClientException": [],
+        "ClientUser": [
+            "id"
+        ],
+        "Colour": [
+            "value"
+        ],
+        "ConnectionClosed": [],
+        "ContentFilter": [],
+        "CustomActivity": [],
+        "DMChannel": [
+            "id"
+        ],
+        "DefaultAvatar": [],
+        "DeletedReferencedMessage": [
+            "id"
+        ],
+        "DiscordException": [],
+        "DiscordServerError": [],
+        "Embed": [],
+        "Emoji": [
+            "id"
+        ],
+        "Enum": [],
+        "ExpireBehaviour": [],
+        "FFmpegAudio": [],
+        "FFmpegOpusAudio": [],
+        "FFmpegPCMAudio": [],
+        "File": [],
+        "Forbidden": [],
+        "FriendFlags": [],
+        "Game": [],
+        "GatewayNotFound": [],
+        "GroupCall": [],
+        "GroupChannel": [
+            "id"
+        ],
+        "Guild": [
+            "id"
+        ],
+        "HTTPException": [],
+        "HypeSquadHouse": [],
+        "Integration": [
+            "id"
+        ],
+        "IntegrationAccount": [
+            "id"
+        ],
+        "Intents": [],
+        "InvalidArgument": [],
+        "InvalidData": [],
+        "Invite": [
+            "id"
+        ],
+        "LoginFailure": [],
+        "Member": [
+            "id"
+        ],
+        "MemberCacheFlags": [],
+        "Message": [
+            "id"
+        ],
+        "MessageFlags": [],
+        "MessageReference": [],
+        "MessageType": [],
+        "NoMoreItems": [],
+        "NotFound": [],
+        "NotificationLevel": [],
+        "Object": [],
+        "PCMAudio": [],
+        "PCMVolumeTransformer": [],
+        "PartialEmoji": [
+            "id"
+        ],
+        "PartialInviteChannel": [
+            "id"
+        ],
+        "PartialInviteGuild": [
+            "id"
+        ],
+        "PartialMessage": [
+            "id"
+        ],
+        "PermissionOverwrite": [],
+        "Permissions": [
+            "value"
+        ],
+        "PremiumType": [],
+        "PrivilegedIntentsRequired": [],
+        "Profile": [],
+        "PublicUserFlags": [],
+        "RawBulkMessageDeleteEvent": [],
+        "RawMessageDeleteEvent": [],
+        "RawMessageUpdateEvent": [],
+        "RawReactionActionEvent": [],
+        "RawReactionClearEmojiEvent": [],
+        "RawReactionClearEvent": [],
+        "Reaction": [],
+        "Relationship": [],
+        "RelationshipType": [],
+        "RequestsWebhookAdapter": [],
+        "Role": [
+            "id"
+        ],
+        "RoleTags": [
+
+        ],
+        "ShardInfo": [
+            "id"
+        ],
+        "SpeakingState": [],
+        "Spotify": [],
+        "StageChannel": [
+            "id"
+        ],
+        "Status": [
+
+        ],
+        "Sticker": [
+            "id"
+        ],
+        "StickerType": [],
+        "StoreChannel": [
+            "id"
+        ],
+        "Streaming": [],
+        "SystemChannelFlags": [],
+        "Team": [
+            "id"
+        ],
+        "TeamMember": [
+            "id"
+        ],
+        "TeamMembershipState": [],
+        "Template": [],
+        "TextChannel": [
+            "id"
+        ],
+        "Theme": [],
+        "User": [
+            "id"
+        ],
+        "UserContentFilter": [],
+        "UserFlags": [],
+        "VerificationLevel": [],
+        "VersionInfo": [],
+        "VoiceChannel": [
+            "id"
+        ],
+        "VoiceClient": [],
+        "VoiceProtocol": [],
+        "VoiceRegion": [],
+        "VoiceState": [],
+        "Webhook": [
+            "id"
+        ],
+        "WebhookAdapter": [],
+        "WebhookMessage": [
+            "id"
+        ],
+        "WebhookType": [
+
+        ],
+        "Widget": [
+            "id"
+        ],
+        "WidgetChannel": [
+            "id"
+        ],
+        "WidgetMember": [
+            "id"
+        ]
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+

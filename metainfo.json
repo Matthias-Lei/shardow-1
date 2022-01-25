@@ -1,0 +1,1132 @@
+{
+
+    "acknowledgementsHelpEmbed": [
+        {
+            "title": "",
+            "url": "",
+            "description": "*commands are not case sensitive*",
+            "color": 8388800
+        },
+        {
+            "name": "SHArdow-1 Help Page (Acknowlegements)",
+            "url": "",
+            "icon_url": "https://cdn.discordapp.com/attachments/882810612277731400/926433125406490664/image0.png"
+        },
+        {
+            "text": "A list of third-party licenses"
+        },
+        [
+            {
+                "name": "\u200b",
+                "value": "\u200b",
+                "inline": false
+            },
+
+            {
+                "name": "Third-party licenses",
+                "value": "\u200b",
+                "inline": false
+            },
+
+            {
+                "name": "Material Icons",
+                "value": "[__License__](https://raw.githubusercontent.com/google/material-design-icons/master/LICENSE)",
+                "inline": true
+            },
+            {
+                "name": "*Random note*",
+                "value": "\u2bc7 somehow google was so lazy they didnt apply the license properly and put `Copyright [yyyy] [name of copyright owner]` instead of the correct identifying information",
+                "inline": true
+            },
+
+            {
+                "name": "\u200b",
+                "value": "\u200b\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u200b",
+                "inline": false
+            }
+
+        ]
+    ],
+
+    "symbolKeyHelpEmbed": [
+        {
+            "title": "",
+            "url": "",
+            "description": "*commands are not case sensitive*",
+            "color": 8388800
+        },
+        {
+            "name": "SHArdow-1 Help Page (Symbols)",
+            "url": "",
+            "icon_url": "https://cdn.discordapp.com/attachments/882810612277731400/926433125406490664/image0.png"
+        },
+        {
+            "text": "A key to symbols used"
+        },
+
+        [
+            {
+                "name": "\u200b",
+                "value": "\u200b",
+                "inline": false
+            },
+
+            {
+                "name": "Symbols used",
+                "value": "\u200b",
+                "inline": false
+            },
+
+            {
+                "name": "string $string$",
+                "value": "__Allowed values:__\n*any sequence of characters*\n`bots are cool`",
+                "inline": true
+            },
+            {
+                "name": "identifier $snowflakeid$",
+                "value": "__Allowed values:__\n*any valid snowflake id*\n`4581042757`",
+                "inline": true
+            },
+            {
+                "name": "json $dictionary$",
+                "value": "__Allowed values:__\n*any valid json*\n`{\"variables\": [\n\"foo\", \"bar\"]}`",
+                "inline": true
+            },
+
+            {
+                "name": "integer $integer$",
+                "value": "__Allowed values:__\n*any whole number*\n`14`",
+                "inline": true
+            },
+            {
+                "name": "float $float$",
+                "value": "__Allowed values:__\n*any number*\n`61.07734`",
+                "inline": true
+            },
+            {
+                "name": "boolean $boolean$",
+                "value": "__Allowed values:__\n*any boolean value*\n`true|1|=|+|on|yes`\n`false|0|-|off|no`",
+                "inline": true
+            },
+
+            {
+                "name": "\u200b",
+                "value": "\u200b\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u200b",
+                "inline": false
+            }
+
+        ]
+    ],
+
+
+    "helpMenu": [
+        {
+            "title": "",
+            "url": "",
+            "description": "*commands are not case sensitive*",
+            "color": 8388800
+        },
+        {
+            "name": "SHArdow-1 Help Page (Normal)",
+            "url": "",
+            "icon_url": "https://cdn.discordapp.com/attachments/882810612277731400/926433125406490664/image0.png"
+        },
+        {
+            "text": "commands are not case sensitive"
+        },
+        [
+            {
+                "name": "\u200b",
+                "value": "\u200b",
+                "inline": false
+            },
+
+            {
+                "name": "Normal Commands",
+                "value": "\u200b",
+                "inline": false
+            },
+            {
+                "name": "\\\\?|help",
+                "value": "shows the help embed",
+                "inline": true
+            },
+            {
+                "name": "\\hi|hey|helo|hello|hullo",
+                "value": "replies with a wave",
+                "inline": true
+            },
+            {
+                "name": "\\rng|random <$integer$start> <$integer$end>",
+                "value": "generates a random integer between the two integers specified (inclusive)",
+                "inline": false
+            },
+            {
+                "name": "\\tl|timetablelinks",
+                "value": "lists available manual timetable links",
+                "inline": true
+            },
+            {
+                "name": "\\at|atd|atf|gfl|autofill|autofiller",
+                "value": "lists available customised timetable tokens",
+                "inline": true
+            },
+            {
+                "name": "\\rt|ping",
+                "value": "tests the round trip time (~400ms)",
+                "inline": true
+            },
+
+            {
+                "name": "\\cc|commander",
+                "value": "checks if the author is a commander",
+                "inline": true
+            },
+            {
+                "name": "\\co|operator",
+                "value": "checks if the author is an operator",
+                "inline": true
+            },
+
+            {
+                "name": "\u200b",
+                "value": "\u200b\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u200b",
+                "inline": false
+            }
+        ]
+    ],
+
+
+    "restrictedHelpMenu": [
+        {
+            "title": "",
+            "url": "",
+            "description": "*commands are not case sensitive*",
+            "color": 8388800
+        },
+        {
+            "name": "SHArdow-1 Help Page (Restricted)",
+            "url": "",
+            "icon_url": "https://cdn.discordapp.com/attachments/882810612277731400/926433125406490664/image0.png"
+        },
+        {
+            "text": "commands are not case sensitive"
+        },
+        [
+            {
+                "name": "\u200b",
+                "value": "\u200b",
+                "inline": false
+            },
+
+            {
+                "name": "Restricted Commands",
+                "value": "\u200b",
+                "inline": false
+            },
+
+            {
+                "name": "\\gh|gethistory <$string$message|server|channel|role|member|emoji> <$boolean$condensed> <$boolean$collapsed> <$integer$searchlimit> <$integer$depth>",
+                "value": "fetches the specified data",
+                "inline": true
+            },
+            {
+                "name": "\\dc|deletecall <$boolean$enabled>",
+                "value": "deletes calling messages after a period of time",
+                "inline": true
+            },
+            {
+                "name": "\\et|emergencytimetable",
+                "value": "emulates Snowy Bot's timetable ping (only once)",
+                "inline": false
+            },
+
+            {
+                "name": "\\cl|clear <$integer$searchlimit>",
+                "value": "clears messages sent by 'shardow-1' within a specified number of messages",
+                "inline": true
+            },
+
+            {
+                "name": "\\rs|removesmirk <$integer$userid> <$integer$searchlimit>",
+                "value": "removes that smirk from ~~*that users face*~~ your messages",
+                "inline": true
+            },
+
+
+            {
+                "name": "\\ss|setstatus <$string$schedule|streaming|competing|online|idle|dnd|invisible>, \"<$string$status>\"",
+                "value": "set the presence of 'shardow-1'",
+                "inline": false
+            },
+
+            {
+                "name": "\\listen",
+                "value": "enables the usage of commands",
+                "inline": true
+            },
+            {
+                "name": "\\ignore",
+                "value": "disables the usage of commands",
+                "inline": true
+            },
+            {
+                "name": "\\terminate",
+                "value": "stops 'shardow-1'",
+                "inline": true
+            },
+
+            {
+                "name": "\\ri|rebuildindex",
+                "value": "rebuilds the list of class attributes of discord.py",
+                "inline": true
+            },
+            {
+                "name": "\\la|listattributes",
+                "value": "lists all class attributes of discord.py",
+                "inline": true
+            },
+
+            {
+                "name": "\\say <$string$text>",
+                "value": "copies your message",
+                "inline": true
+            },
+
+            {
+                "name": "\\ut|uptime",
+                "value": "shows the uptime",
+                "inline": true
+            },
+
+            {
+                "name": "\\rai",
+                "value": "revokes all invites",
+                "inline": true
+            },
+
+
+            {
+                "name": "\u200b",
+                "value": "\u200b\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u200b",
+                "inline": false
+            }
+        ]
+    ],
+
+
+
+    "automatedHelpMenu": [
+        {
+            "title": "",
+            "url": "",
+            "description": "*commands are not case sensitive*",
+            "color": 8388800
+        },
+        {
+            "name": "SHArdow-1 Help Page (Unstable)",
+            "url": "",
+            "icon_url": "https://cdn.discordapp.com/attachments/882810612277731400/926433125406490664/image0.png"
+        },
+        {
+            "text": "commands are not case sensitive"
+        },
+        [
+            {
+                "name": "\u200b",
+                "value": "\u200b",
+                "inline": false
+            },
+
+            {
+                "name": "Unstable Commands",
+                "value": "\u200b",
+                "inline": false
+            },
+
+
+            {
+                "name": "register verification in <$snowflakeid$channel> logging to <$snowflakeid$channel> requiring <$snowflakeid$roles> applying <$snowflakeid$roles>",
+                "value": "enables verification of users",
+                "inline": false
+            },
+
+            {
+                "name": "unregister verification in <$snowflakeid$channel>",
+                "value": "disables verification of users",
+                "inline": false
+            },
+
+
+            {
+                "name": "register mentions logging to <$snowflakeid$channel>",
+                "value": "enables mention logging",
+                "inline": false
+            },
+            {
+                "name": "unregister mentions logging",
+                "value": "disables mention logging",
+                "inline": true
+            },
+
+            {
+                "name": "rep /<$string$regex>/, <$integer$searchlimit>",
+                "value": "searches for messages containing text matching the specified pattern",
+                "inline": false
+            },
+
+            {
+                "name": "\u200b",
+                "value": "\u200b\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u200b",
+                "inline": false
+            }
+        ]
+    ],
+
+    "iteratorHelpMenu": [
+        {
+            "title": "",
+            "url": "",
+            "description": "*commands are not case sensitive*",
+            "color": 8388800
+        },
+        {
+            "name": "SHArdow-1 Help Page (Code Blocks)",
+            "url": "",
+            "icon_url": "https://cdn.discordapp.com/attachments/882810612277731400/926433125406490664/image0.png"
+        },
+        {
+            "text": "commands are not case sensitive"
+        },
+        [
+            {
+                "name": "\u200b",
+                "value": "\u200b",
+                "inline": false
+            },
+
+            {
+                "name": "Code Block Commands",
+                "value": "\u200b",
+                "inline": false
+            },
+            {
+                "name": "\\pp|prettyprint <$dictionary$json>",
+                "value": "pretty-prints JSON files\n\u200b",
+                "inline": false
+            },
+            {
+                "name": "\\ie|ifempty <$string$variable>",
+                "value": "prints an if-elif empty block",
+                "inline": true
+            },
+            {
+                "name": "\\iz|ifzero <$string$variable>",
+                "value": "prints an if-elif zero block",
+                "inline": true
+            },
+            {
+                "name": "\\in|iflength <$string$variable>",
+                "value": "prints an if-elif length block",
+                "inline": true
+            },
+            {
+                "name": "\\ig|ifgreater <$string$variable> <$integer$size>",
+                "value": "prints an if-elif greater than block",
+                "inline": true
+            },
+            {
+                "name": "\\il|ifless <$string$variable> <$integer$size>",
+                "value": "prints an if-elif less than block",
+                "inline": true
+            },
+            {
+                "name": "\\igl|ifgreaterless <$string$variable> <$integer$minsize> <$integer$maxsize>",
+                "value": "prints an if-elif less and greater than block",
+                "inline": true
+            },
+            {
+                "name": "\\fi|foriter <$string$variable>",
+                "value": "prints a for iterator block",
+                "inline": true
+            },
+            {
+                "name": "\\wi|whileiter <$string$variable>",
+                "value": "prints an while iterator block",
+                "inline": true
+            },
+            {
+                "name": "\\di|dictiter <$string$variable>",
+                "value": "prints an dictionary iterator block",
+                "inline": true
+            },
+            {
+                "name": "\\it|iftrue <$string$variable>",
+                "value": "prints an if-elif true block",
+                "inline": true
+            },
+            {
+                "name": "\\pf|parsefile <$string$variable>",
+                "value": "prints an json-parsing block\n\u200b",
+                "inline": true
+            },
+
+
+            {
+                "name": "\u200b",
+                "value": "\u200b\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u200b",
+                "inline": false
+            }
+        ]
+    ],
+
+
+
+
+
+    "undocumentedHelpMenu": [
+        {
+            "title": "",
+            "url": "",
+            "description": "*commands are not case sensitive*",
+            "color": 8388800
+        },
+        {
+            "name": "SHArdow-1 Help Page (Undocumented)",
+            "url": "",
+            "icon_url": "https://cdn.discordapp.com/attachments/882810612277731400/926433125406490664/image0.png"
+        },
+        {
+            "text": "commands are not case sensitive"
+        },
+        [
+            {
+                "name": "\u200b",
+                "value": "\u200b",
+                "inline": false
+            },
+
+            {
+                "name": "Undocumented Commands",
+                "value": "\u200b",
+                "inline": false
+            },
+
+            {
+                "name": "\\owoify <$string$text>",
+                "value": "??",
+                "inline": true
+            },
+
+
+
+            {
+                "name": "\u200b",
+                "value": "\u200b\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u2001\u200b",
+                "inline": false
+            }
+        ]
+    ],
+
+
+
+
+
+
+
+
+
+
+
+
+
+    "timetables": [
+        {
+            "title": "Timetable Links",
+            "url": "",
+            "description": "A list of auto-filled timetables\n\u200b",
+            "color": 8437760
+        },
+        {
+            "name": "",
+            "url": "",
+            "icon_url": ""
+        },
+        {
+            "text": "dm shardow if you have a suggestion"
+        },
+        [
+            {
+                "name": "Normal Forms",
+                "value": "use `\\tl|timetablelinks` instead",
+                "inline": false
+            },
+            {
+                "name": "\u200b",
+                "value": "\u200b",
+                "inline": false
+            },
+            {
+                "name": "Custom Forms",
+                "value": "go to\u2001\u2001https://shardowyt.github.io/public/\u2001\u2001and input your token\n\u200b",
+                "inline": false
+            },
+            {
+                "name": "\u200b",
+                "value": "***dank_nightfury.exe***",
+                "inline": true
+            },
+            {
+                "name": "\u200b",
+                "value": "\u200b",
+                "inline": true
+            },
+            {
+                "name": "\u200b",
+                "value": "`      442aa149cd84c259f80a35279edeec12      `",
+                "inline": true
+            },
+            {
+                "name": "\u200b",
+                "value": "***james.***",
+                "inline": true
+            },
+            {
+                "name": "\u200b",
+                "value": "\u200b",
+                "inline": true
+            },
+            {
+                "name": "\u200b",
+                "value": "`      1d25c1cf69f2ff1ab9921c1756d1ec88      `",
+                "inline": true
+            },
+            {
+                "name": "\u200b",
+                "value": "***Tranquilifier***",
+                "inline": true
+            },
+            {
+                "name": "\u200b",
+                "value": "\u200b",
+                "inline": true
+            },
+            {
+                "name": "\u200b",
+                "value": "`      0c86b4781b843a27f0e9252818854d6b      `",
+                "inline": true
+            },
+            {
+                "name": "\u200b",
+                "value": "***TooTHleZZ***",
+                "inline": true
+            },
+            {
+                "name": "\u200b",
+                "value": "\u200b\n\u200b",
+                "inline": true
+            },
+            {
+                "name": "\u200b",
+                "value": "`      861571ff0347b8d69a906af7c9bf0e47      `",
+                "inline": true
+            },
+            {
+                "name": "\u200b",
+                "value": "***Year 9 (Gamma)***",
+                "inline": true
+            },
+            {
+                "name": "\u200b",
+                "value": "\u200b",
+                "inline": true
+            },
+            {
+                "name": "\u200b",
+                "value": "`      fbd0017d663899c680f79f311bb3dd57      `",
+                "inline": true
+            },
+            {
+                "name": "\u200b",
+                "value": "***Year 9 (Beta)***",
+                "inline": true
+            },
+            {
+                "name": "\u200b",
+                "value": "\u200b",
+                "inline": true
+            },
+            {
+                "name": "\u200b",
+                "value": "`      2cfd8b7c75ce948c22378aa01e8a84a1      `",
+                "inline": true
+            },
+            {
+                "name": "\u200b",
+                "value": "***Year 9 (Alpha)***",
+                "inline": true
+            },
+            {
+                "name": "\u200b",
+                "value": "\u200b",
+                "inline": true
+            },
+            {
+                "name": "\u200b",
+                "value": "`      958d3d815204303031be651e89d52176      `",
+                "inline": true
+            },
+            {
+                "name": "\u200b",
+                "value": "\u200b",
+                "inline": false
+            }
+        ]
+    ],
+    "forms": [
+        {
+            "title": "Timetable Links",
+            "url": "",
+            "description": "A list of manual timetable links\n\u200b",
+            "color": 32960
+        },
+        {
+            "name": "",
+            "url": "",
+            "icon_url": ""
+        },
+        {
+            "text": "dm shardow if you have a suggestion"
+        },
+        [
+            {
+                "name": "Normal Forms\n\u200b",
+                "value": "[Year 7 Form](https://docs.google.com/forms/d/e/1FAIpQLSf0wNsk9bJF9VxF-gZ7DAN6hvov3vr1EFHZrMyRk0WRQ_m8bA/viewform)",
+                "inline": true
+            },
+            {
+                "name": "\u200b\n\u200b",
+                "value": "[Year 9 Form](https://docs.google.com/forms/d/e/1FAIpQLSc1aXXrENpHmaJ30zlmR4xWnNv6mRw4jKJSiZeUErAG9e6bdw/viewform)",
+                "inline": true
+            },
+            {
+                "name": "\u200b\n\u200b",
+                "value": "[Year 11 Form](https://docs.google.com/forms/d/e/1FAIpQLScVR8KK7CPhdcbgg0CkpCNEofQEKy0h8uyw0JCFsPPh0EJFhg/viewform)",
+                "inline": true
+            },
+            {
+                "name": "\u200b",
+                "value": "[Year 8 Form](https://docs.google.com/forms/d/e/1FAIpQLSdBn_QwHom86htHoZYGuG6YjXTvjL_-IJoCdoiYMVVbZMwU9g/viewform)",
+                "inline": true
+            },
+            {
+                "name": "\u200b",
+                "value": "[Year 10 Form](https://docs.google.com/forms/d/e/1FAIpQLSew3K82Uj9SRrtd0C1wHyC4Rn9neUmOCy1AzcCz7tRYJzFHGw/viewform)",
+                "inline": true
+            },
+            {
+                "name": "\u200b",
+                "value": "[Year 12 Form](https://docs.google.com/forms/d/e/1FAIpQLSdqg7NnSAYiZjIafsTDwsaemF1ZRmBNi4yP5uYxEw5f0O0d6A/viewform)",
+                "inline": true
+            },
+            {
+                "name": "\u200b",
+                "value": "\u200b",
+                "inline": false
+            },
+            {
+                "name": "Custom Forms",
+                "value": "use `\\at|atd|atf|gfl|autofill|autofiller` instead",
+                "inline": false
+            },
+            {
+                "name": "\u200b",
+                "value": "\u200b",
+                "inline": false
+            }
+        ]
+    ],
+
+
+
+
+    "commanderYes": [
+        {
+            "title": "**Yes**",
+            "url": "",
+            "description": "*you __are__ a commander*",
+            "color": 8437760
+        },
+        {
+            "name": "SHArdow-1 Commander Query",
+            "url": "",
+            "icon_url": "https://cdn.discordapp.com/attachments/882810612277731400/926433125406490664/image0.png"
+        },
+        {
+            "text": ""
+        },
+        [
+        ]
+    ],
+
+
+
+    "commanderNo": [
+        {
+            "title": "**No**",
+            "url": "",
+            "description": "*you __are not__ a commander*",
+            "color": 12582912
+        },
+        {
+            "name": "SHArdow-1 Commander Query",
+            "url": "",
+            "icon_url": "https://cdn.discordapp.com/attachments/882810612277731400/926433125406490664/image0.png"
+        },
+        {
+            "text": ""
+        },
+        [
+        ]
+    ],
+
+
+
+
+
+    "operatorCommanderYes": [
+        {
+            "title": "**Yes [you are a commander]**",
+            "url": "",
+            "description": "*you __are__ an operator (and commander)*",
+            "color": 16760832
+        },
+        {
+            "name": "SHArdow-1 Operator Query",
+            "url": "",
+            "icon_url": "https://cdn.discordapp.com/attachments/882810612277731400/926433125406490664/image0.png"
+        },
+        {
+            "text": ""
+        },
+        [
+        ]
+    ],
+
+
+
+
+    "operatorYes": [
+        {
+            "title": "**Yes**",
+            "url": "",
+            "description": "*you __are__ an operator*",
+            "color": 8437760
+        },
+        {
+            "name": "SHArdow-1 Operator Query",
+            "url": "",
+            "icon_url": "https://cdn.discordapp.com/attachments/882810612277731400/926433125406490664/image0.png"
+        },
+        {
+            "text": ""
+        },
+        [
+        ]
+    ],
+
+
+
+    "operatorNo": [
+        {
+            "title": "**No**",
+            "url": "",
+            "description": "*you __are not__ an operator*",
+            "color": 12582912
+        },
+        {
+            "name": "SHArdow-1 Operator Query",
+            "url": "",
+            "icon_url": "https://cdn.discordapp.com/attachments/882810612277731400/926433125406490664/image0.png"
+        },
+        {
+            "text": ""
+        },
+        [
+        ]
+    ],
+
+
+
+
+    "randomNumber": [
+        {
+            "title": "Random Number Generator",
+            "url": "",
+            "description": "**Result:** `    -1    `",
+            "color": 16760832
+        },
+        {
+            "name": "SHArdow-1 RandInt Query",
+            "url": "",
+            "icon_url": "https://cdn.discordapp.com/attachments/882810612277731400/926433125406490664/image0.png"
+        },
+        {
+            "text": ""
+        },
+        [
+        ]
+    ],
+
+
+    "uptime": [
+        {
+            "title": "Time since start",
+            "url": "",
+            "description": "Time: `0:00:00`",
+            "color": 16760832
+        },
+        {
+            "name": "SHArdow-1 Uptime Query",
+            "url": "",
+            "icon_url": "https://cdn.discordapp.com/attachments/882810612277731400/926433125406490664/image0.png"
+        },
+        {
+            "text": ""
+        },
+        [
+        ]
+    ],
+
+
+    "roundTripTime": [
+        {
+            "title": "Round Trip Time",
+            "url": "",
+            "description": "Time: `0 ms`",
+            "color": 16760832
+        },
+        {
+            "name": "SHArdow-1 Roundtrip Query",
+            "url": "",
+            "icon_url": "https://cdn.discordapp.com/attachments/882810612277731400/926433125406490664/image0.png"
+        },
+        {
+            "text": ""
+        },
+        [
+        ]
+    ],
+
+
+
+
+    "taskCompleted": [
+        {
+            "title": "Completed!",
+            "url": "",
+            "description": " ",
+            "color": 8437760
+        },
+        {
+            "name": "SHArdow-1 Miscellaneous Query",
+            "url": "",
+            "icon_url": "https://cdn.discordapp.com/attachments/882810612277731400/926433125406490664/image0.png"
+        },
+        {
+            "text": ""
+        },
+        [
+        ]
+    ],
+
+
+
+    "taskDisabled": [
+        {
+            "title": "Failed to run!",
+            "url": "",
+            "description": " ",
+            "color": 12582912
+        },
+        {
+            "name": "SHArdow-1 Miscellaneous Query",
+            "url": "",
+            "icon_url": "https://cdn.discordapp.com/attachments/882810612277731400/926433125406490664/image0.png"
+        },
+        {
+            "text": ""
+        },
+        [
+        ]
+    ],
+
+
+    "taskCooling": [
+        {
+            "title": "Command cooling down!",
+            "url": "",
+            "description": " ",
+            "color": 16760832
+        },
+        {
+            "name": "SHArdow-1 Miscellaneous Query",
+            "url": "",
+            "icon_url": "https://cdn.discordapp.com/attachments/882810612277731400/926433125406490664/image0.png"
+        },
+        {
+            "text": ""
+        },
+        [
+        ]
+    ],
+
+
+
+    "unspecifiedParameters": [
+        {
+            "title": "Error: Parameters are not fully specified",
+            "url": "",
+            "description": "",
+            "color": 12582912
+        },
+        {
+            "name": "SHArdow-1 Miscellaneous Query",
+            "url": "",
+            "icon_url": "https://cdn.discordapp.com/attachments/882810612277731400/926433125406490664/image0.png"
+        },
+        {
+            "text": ""
+        },
+        [
+        ]
+    ],
+
+
+    "invalidParameters": [
+        {
+            "title": "Error: Parameters provided are invalid",
+            "url": "",
+            "description": "",
+            "color": 12582912
+        },
+        {
+            "name": "SHArdow-1 Miscellaneous Query",
+            "url": "",
+            "icon_url": "https://cdn.discordapp.com/attachments/882810612277731400/926433125406490664/image0.png"
+        },
+        {
+            "text": ""
+        },
+        [
+        ]
+    ],
+
+
+
+
+    "unauthorisedUser": [
+        {
+            "title": "Error: Unauthorised user",
+            "url": "",
+            "description": "",
+            "color": 12582912
+        },
+        {
+            "name": "SHArdow-1 Miscellaneous Query",
+            "url": "",
+            "icon_url": "https://cdn.discordapp.com/attachments/882810612277731400/926433125406490664/image0.png"
+        },
+        {
+            "text": ""
+        },
+        [
+        ]
+    ],
+
+
+
+    "notImplemented": [
+        {
+            "title": "This function is not implemented!",
+            "url": "",
+            "description": "",
+            "color": 16760832
+        },
+        {
+            "name": "",
+            "url": "",
+            "icon_url": ""
+        },
+        {
+            "text": ""
+        },
+        [
+        ]
+    ],
+
+    "timetable": [
+        {
+            "title": "Current Period",
+            "url": "",
+            "description": "",
+            "color": 16760832
+        },
+        {
+            "name": "SHArdow-1 Period Query",
+            "url": "",
+            "icon_url": "https://cdn.discordapp.com/attachments/882810612277731400/926433125406490664/image0.png"
+        },
+        {
+            "text": ""
+        },
+        [
+        ]
+    ],
+
+
+    "commandDisabled": [
+        {
+            "title": "Error: Command disabled",
+            "url": "",
+            "description": "",
+            "color": 12582912
+        },
+        {
+            "name": "SHArdow-1 Miscellaneous Query",
+            "url": "",
+            "icon_url": "https://cdn.discordapp.com/attachments/882810612277731400/926433125406490664/image0.png"
+        },
+        {
+            "text": ""
+        },
+        [
+        ]
+    ],
+
+
+
+
+
+    "userVerified": [
+        {
+            "title": "Verified!",
+            "url": "",
+            "description": " ",
+            "color": 8437760
+        },
+        {
+            "name": "SHArdow-1 Miscellaneous Query",
+            "url": "",
+            "icon_url": "https://cdn.discordapp.com/attachments/882810612277731400/926433125406490664/image0.png"
+        },
+        {
+            "text": ""
+        },
+        [
+        ]
+    ]
+
+
+}
+
